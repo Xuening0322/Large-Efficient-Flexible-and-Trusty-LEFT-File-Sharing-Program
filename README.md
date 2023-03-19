@@ -5,7 +5,11 @@ This program is a TCP file sharing tool built using Python Socket and multithrea
 
 Install the Python package paramiko:
 
-`$ pip install paramiko`
+```shell
+$ pip install paramiko
+```
+
+
 
 Modify the IP addresses in the `main.py` to yours: 
 
@@ -16,5 +20,7 @@ PC_B_IP = ('192.168.49.129', 8001)
 
 Run the test script `main.py`:
 
-`$ Python main.py`
+```shell
+$ python main.py
+```
 
